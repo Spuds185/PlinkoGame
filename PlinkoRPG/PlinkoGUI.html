@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Micah Richard
+        9/21/2021
+        PlinkoGUI.html
+    -->
+    <meta charset="UTF-8">
+    <title>PlinkoGame</title>
+    <!--letting me see my Canvas area and get rid of body margin defaults-->
+    <style type="text/css">
+        canvas{
+            border: 1px solid black;
+            padding: 0;
+            margin: auto;
+            display: block;
+            background: url('./background.png');
+        }
+        html{
+            background: url('./htmlbackground.jpg');
+        }
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--GUI of the game rendered by the canvas-->
+    <canvas id="canvas">
+
+    </canvas>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="PlinkoMain.js"></script>
+</body>
+</html>
